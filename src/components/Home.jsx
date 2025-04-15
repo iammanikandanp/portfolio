@@ -4,9 +4,8 @@ import {gsap} from "gsap"
 import TypingText from './TypedText'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import resume from "../assets/resume/Manikandan.pdf"
 
 export const Home = () => {
     
@@ -80,12 +79,27 @@ export const Home = () => {
 
     </div>
     <div className="mt-[50px]">
-    <a
-  href="#"
-  className="aboutme inline-block px-5 py-3 font-bold bg-cyan-400 rounded-full text-[16px] text-[#081b29]  tracking-wider no-underline shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_50px_cyan,0_0_100px_cyan] transition"
->
-  More About Me
-</a>
+    <div className="flex gap-4 mt-6">
+  
+  <a
+    href={resume}
+    download
+    className="inline-block px-5 py-3 font-bold bg-cyan-400 rounded-full text-[16px] text-[#081b29] tracking-wider no-underline shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_50px_cyan,0_0_100px_cyan] transition"
+  >
+    Resume
+  </a>
+
+  
+  <a
+    href={resume} 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-5 py-3 font-bold border border-cyan-400 rounded-full text-[16px] text-cyan-400 tracking-wider no-underline hover:bg-cyan-400 hover:text-[#081b29] transition"
+  >
+    Preview
+  </a>
+</div>
+
     </div>
 
         </div>
