@@ -84,7 +84,7 @@ export const Home = () => {
   <a
     href={resume}
     download
-    className="inline-block px-5 py-3 font-bold bg-cyan-400 rounded-full text-[16px] text-[#081b29] tracking-wider no-underline shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_50px_cyan,0_0_100px_cyan] transition"
+    className="aboutme inline-block px-5 py-3 font-bold bg-cyan-400 rounded-full text-[16px] text-[#081b29] tracking-wider no-underline shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_50px_cyan,0_0_100px_cyan] transition"
   >
     Resume
   </a>
@@ -94,7 +94,7 @@ export const Home = () => {
     href={resume} 
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-block px-5 py-3 font-bold border border-cyan-400 rounded-full text-[16px] text-cyan-400 tracking-wider no-underline hover:bg-cyan-400 hover:text-[#081b29] transition"
+    className="aboutme inline-block px-5 py-3 font-bold border border-cyan-400 rounded-full text-[16px] text-cyan-400 tracking-wider no-underline hover:bg-cyan-400 hover:text-[#081b29] transition"
   >
     Preview
   </a>
