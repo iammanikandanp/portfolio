@@ -3,7 +3,7 @@ import {gsap} from "gsap";
 import { Link } from 'react-scroll';
 
 
-export const Navbar = () => {
+export const Nav = () => {
   const [open, setOpen] = useState(false);
 
   const toggleOpen = () => {

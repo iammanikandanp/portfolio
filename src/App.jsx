@@ -1,10 +1,11 @@
-import { About } from "./components/About"
-import { ContactUs } from "./components/ContactUs"
-import { Home } from "./components/Home"
-import { Navbar } from "./components/navbar"
-import Project from "./components/Projects"
-import { Servives } from "./components/Servives"
-import { Skill } from "./components/Skill"
+import { About } from "./components/About.jsx"
+import { ContactUs } from "./components/ContactUs.jsx"
+import { Home } from "./components/Home.jsx"
+import { Nav } from "./components/Nav.jsx"
+
+import Project from "./components/Projects.jsx"
+import { Servives } from "./components/Servives.jsx"
+import { Skill } from "./components/Skill.jsx"
 
 
 
@@ -12,7 +13,7 @@ function App() {
   
   return (
     <>
-     < Navbar/>
+     <Nav/>
      <main className=''> 
         <section id="home">
           <Home />
