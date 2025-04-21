@@ -58,7 +58,7 @@ const projects = [
 const Project = () => {
   return (
     <section className="w-full min-h-screen bg-[#081b29] text-white px-4 py-12 flex flex-col items-center">
-      <h2 className="text-4xl font-bold text-[#0ef] mb-10">My Projects</h2>
+      <h2 className="text-4xl font-bold  mb-10">My <span className='text-[#0ef]'>Projects</span></h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl">
         {projects.map((project, index) => (
           <div
@@ -81,7 +81,7 @@ const Project = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block text-sm text-white bg-[#0ef] px-4 py-2 rounded hover:bg-cyan-400 transition"
+              className="inline-block text-sm text-[#081b29] bg-[#0ef] px-4 py-2 rounded hover:bg-cyan-400 transition"
             >
               View Project
             </a>

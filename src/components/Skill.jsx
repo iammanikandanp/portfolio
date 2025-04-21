@@ -89,7 +89,7 @@ useEffect(() => {
             <span className="text-white"> My</span>
             <span className="text-[#0ef]"> Skills</span>
           </h1>
-    <section  className="w-screen min-h-screen bg-[#081b29] flex justify-around items-center max-[600px]:flex-col-reverse max-[600px]:justify-evenly ">
+    <section  className="w-screen min-h-screen bg-[#081b29] flex justify-around items-center max-[600px]:flex-col max-[600px]:justify-evenly ">
     <div ref={ref} className="w-full max-w-[600px] p-5">
   <h1 className="text-center underline underline-offset-[10px] decoration-[5px] text-white text-3xl font-bold mb-12">
     Technical Skills

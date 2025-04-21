@@ -22,8 +22,8 @@ export const Servives = () => {
   }, []);
 
   const services = [
-    { icon: 'fas fa-code', title: 'Frontend Development' ,discription:'I design visually appealing and fully responsive user interfaces using modern frontend technologies like HTML, CSS, JavaScript, and React.js. My focus is on creating smooth user experiences, mobile compatibility, and pixel-perfect layouts that match the latest web standards.'},
-    { icon: 'fas fa-paint-brush', title: 'Backend Integration',discription:'I build powerful and secure backend systems using Node.js, Express.js, and Python. My backend development ensures fast API responses, proper error handling, and seamless connection with databases to manage dynamic content and user data efficiently.' },
+    { icon: 'fas fa-paint-brush ', title: 'Frontend Development' ,discription:'I design visually appealing and fully responsive user interfaces using modern frontend technologies like HTML, CSS, JavaScript, and React.js. My focus is on creating smooth user experiences, mobile compatibility, and pixel-perfect layouts that match the latest web standards.'},
+    { icon: 'fas fa-code', title: 'Backend Integration',discription:'I build powerful and secure backend systems using Node.js, Express.js, and Python. My backend development ensures fast API responses, proper error handling, and seamless connection with databases to manage dynamic content and user data efficiently.' },
     { icon: 'fas fa-database', title: 'DataBase',discription:'I manage and structure databases using MySQL and MongoDB to store, retrieve, and manipulate data effectively. With a strong understanding of schema design and data relationships, I ensure both performance and scalability for all applications.'  },
   ];
 

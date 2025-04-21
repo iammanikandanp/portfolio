@@ -67,7 +67,7 @@ export const Nav = () => {
          </Link>
        </li>
        <li>
-         <Link to="service" smooth={true} duration={500} offset={-60} onClick={toggleClose}>
+         <Link to="Service" smooth={true} duration={500} offset={-60} onClick={toggleClose}>
            <span className='cursor-pointer text-left w-full py-1 block hover:text-amber-300'>Services</span>
          </Link>
        </li>
