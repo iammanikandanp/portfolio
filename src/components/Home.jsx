@@ -5,7 +5,7 @@ import TypingText from './TypedText'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import resume from "../assets/Manikandan.pdf"
+import resume from "../assets/Manikandanp.pdf"
 
 export const Home = () => {
     
